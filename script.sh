@@ -11,6 +11,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 git clone https://github.com/kwxos/open-page.git package/lean/
 #Add amlogic管理
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/lean/luci-app-amlogic
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/lean/luci-app-openclash
 #Add luci-app-passwall
 #git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/lean/luci-app-passwall
 #Add luci-app-smartdns
