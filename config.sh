@@ -81,25 +81,26 @@ CONFIG_PACKAGE_lsattr=y
 CONFIG_PACKAGE_lsblk=y
 CONFIG_PACKAGE_luci-app-amlogic=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
-# CONFIG_PACKAGE_luci-app-ddns is not set
+CONFIG_PACKAGE_luci-app-ddns=y
+CONFIG_PACKAGE_luci-app-openclash=y
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set
-CONFIG_PACKAGE_luci-app-nps=y
-CONFIG_PACKAGE_luci-app-ramfree=y
+CONFIG_PACKAGE_luci-app-nps=n
+CONFIG_PACKAGE_luci-app-ramfree=n
 CONFIG_PACKAGE_luci-app-ttyd=y
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
 # CONFIG_PACKAGE_luci-app-upnp is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
 # CONFIG_PACKAGE_luci-app-wol is not set
-CONFIG_PACKAGE_luci-app-zerotier=y
+CONFIG_PACKAGE_luci-app-zerotier=n
 CONFIG_PACKAGE_luci-compat=y
 CONFIG_PACKAGE_luci-i18n-amlogic-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-nps-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-nps-zh-cn=n
 CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 #CONFIG_PACKAGE_luci-i18n-unblockmusic-zh-cn=not
-CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=n
 CONFIG_PACKAGE_luci-proto-ipv6=y
-CONFIG_PACKAGE_luci-theme-argon=y
-CONFIG_PACKAGE_luci-theme-opentomcat=y
+CONFIG_PACKAGE_luci-theme-argon=n
+CONFIG_PACKAGE_luci-theme-opentomcat=n
 # CONFIG_PACKAGE_miniupnpd is not set
 CONFIG_PACKAGE_naiveproxy=y
 CONFIG_PACKAGE_nano=y
@@ -110,15 +111,15 @@ CONFIG_PACKAGE_odhcpd-ipv6only=y
 CONFIG_PACKAGE_odhcpd_ipv6only_ext_cer_id=0
 CONFIG_PACKAGE_openssh-sftp-server=y
 #校园网
-CONFIG_PACKAGE_luci-app-mentohust=y
-CONFIG_PACKAGE_luci-app-mwan3=y
-CONFIG_PACKAGE_luci-app-mwan3helper=y
-CONFIG_PACKAGE_luci-app-syncdial=y
-CONFIG_PACKAGE_luci-app-lucky=y
-CONFIG_PACKAGE_luci-app-netdata=y
+CONFIG_PACKAGE_luci-app-mentohust=n
+CONFIG_PACKAGE_luci-app-mwan3=n
+CONFIG_PACKAGE_luci-app-mwan3helper=n
+CONFIG_PACKAGE_luci-app-syncdial=n
+CONFIG_PACKAGE_luci-app-lucky=n
+CONFIG_PACKAGE_luci-app-netdata=n
 #istore
-CONFIG_PACKAGE_luci-app-store=y
-CONFIG_PACKAGE_luci-app-quickstart=y
+CONFIG_PACKAGE_luci-app-store=n
+CONFIG_PACKAGE_luci-app-quickstart=n
 #istoreend
 CONFIG_PACKAGE_parted=y
 CONFIG_PACKAGE_perl=y
